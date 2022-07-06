@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.news-wrapper{
+    margin-bottom: 254px;
+}
+
+@media screen and (max-width: 750px){
+    .news-wrapper{
+        margin-top: 23px;
+    }
+    .title{
+        margin-bottom: 34px;
+    }
+}

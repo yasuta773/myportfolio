@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio1</title>
+    <link rel="stylesheet" href="/css/ress.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+    <!--#include virtual="/inc/header.html"-->
+    <div class="contact-form">
+        <div class="container">
+            <div class="title">
+                <h2>Contact</h2>
+            </div>
+            <form>
+                <div class="item">
+                    <label class="label" for="yourname">NAME</label>
+                    <input class="inputs" type="text" name="yourname" id="yourname">
+                </div>
+                <div class="item">
+                    <label class="label" for="email">E-mail</label>
+                    <input class="inputs" type="email" name="email" id="email">
+                </div>
+                <div class="item">
+                    <label class="label" for="message">MESSAGE</label>
+                    <textarea class="message-inputs" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="btn-area">
+                    <input type="submit" value="送信">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--#include virtual="/inc/footer.html"-->
+</body>
+</html>
