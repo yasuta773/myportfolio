@@ -24,10 +24,16 @@
 }
 /*mainvisual-wrapperここまで*/
 
-/*works-wrapperここから*/
-/* .works-wrapper .container{
-    margin-bottom: 125px;
+/*about-wrapperここから*/
+/* .about-contents{
+    text-align: center;
+}
+.about-contents p{
+    font-size: 1.44rem;
 } */
+/*about-wrapperここまで*/
+
+/*works-wrapperここから*/
 .works-images{
     display: flex;
     flex-wrap: wrap;
