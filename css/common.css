@@ -45,10 +45,19 @@ header .container{
     height: 270px;
     margin-bottom: 0;
 }
+
+header a{
+    font-size: 2.2rem;
+}
+
 .menu-list{
     width: 320px;
     display: flex;
     justify-content: space-between;
+}
+
+.menu-list a{
+    font-size: 1.44rem;
 }
 
 @media screen and (max-width: 750px) {
@@ -58,16 +67,7 @@ header .container{
     height: 88px;
     margin-top: 15px;
 }
-header h1 img{
-    display: none;
-}
-header h1::before{
-    content: "My Works";
-    font-size: 31.8px;
-    color: #2B3137;
-    font-weight: normal;
-    letter-spacing: -0.15rem;
-}
+
 .menu-list{
     width: 260px;
     margin: 0 auto;
