@@ -5,11 +5,31 @@
     margin-bottom: 125px;
 }
 
+.profile-wrapper dl{
+    font-size: 1.44rem;
+}
+
+.profile-wrapper dt{
+    font-weight: bold;
+}
+
+.profile-text .title,
+.profile-biography .title,
+.profile-skill .title{
+    margin-bottom: 45px;
+}
+
 h3{
     font-size: 1.8rem;
     color: #24292E;
     font-weight: bold;
-    margin-bottom: 37px;
+    letter-spacing: -0.08rem;
+}
+
+h4{
+    font-size: 1.6rem;
+    color: #24292E;
+    font-weight: bold;
     letter-spacing: -0.08rem;
 }
 
@@ -36,13 +56,84 @@ h3{
 /* profile-text */
 
 /* profile-biography */
-.profile-biography dl{
-    font-size: 1.44rem;
+.profile-biography{
+    margin-top: 60px;
+}
+
+.profile-biography dt{
+    position: relative;
+    padding-left: 18px;
+}
+
+.profile-biography dt::before{
+    position: absolute;
+    content: "";
+    top: 30%;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+}
+
+.profile-biography dt::after{
+    position: absolute;
+    content: "";
+    top: 30%;
+    left: 80px;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+}
+
+.profile-biography dd{
+    padding-left: 18px;
+}
+
+.profile-biography dd:nth-last-of-type(n + 1){
+    margin-bottom: 30px;
 }
 /* profile-biography */
 
 /* profile-skill */
+.profile-skill{
+    margin-top: 60px;
+}
+
 .profile-skill .flex-wrapper{
     display: flex;
+    justify-content: space-between;
+}
+
+.skill-1,
+.skill-2{
+    max-width: 400px;
+    border: solid 5px #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skill-1 .title,
+.skill-2 .title{
+    margin-bottom: 30px;
+}
+
+.profile-skill dt{
+    margin-bottom: 15px;
+    padding-left: 18px;
+    position: relative;
+}
+
+.profile-skill dt::before{
+    position: absolute;
+    content: "";
+    top: 30%;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+}
+
+.skill-1 dd:first-of-type{
+    margin-bottom: 15px;
 }
 /* profile-skill */

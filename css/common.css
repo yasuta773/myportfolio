@@ -3,6 +3,7 @@
 html{
     font-size: 62.5%;
 }
+
 .container{
     margin: 0 auto;
     max-width: 840px;
@@ -75,30 +76,27 @@ header .container{
 }
 /*headerここまで*/
 
-/*news-wrapperここから*/
-/* .news-wrapper{
-    margin-bottom: 200px;
-} */
-.news-contents{
+/*blog-wrapperここから*/
+.blog-contents{
     border-top: solid 1px #C8C8C8;
 }
-.news-contents li{
+.blog-contents li{
     border-bottom: solid 1px #C8C8C8;
 }
-.news-contents a{
+.blog-contents a{
     display: block;
     margin: 14.5px 12px;
 }
-.news-contents span{
+.blog-contents span{
     margin-left: 80px;
 }
 @media screen and (max-width: 750px) {
-.news-contents span{
+.blog-contents span{
     display: block;
     margin-left: 0;
 }
 }
-/*news-wrapperここまで*/
+/*blog-wrapperここまで*/
 
 /*footerここから*/
 footer{

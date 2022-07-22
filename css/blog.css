@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-.news-wrapper{
+.blog-wrapper{
     margin-bottom: 254px;
 }
 
 @media screen and (max-width: 750px){
-    .news-wrapper{
+    .blog-wrapper{
         margin-top: 23px;
     }
     .title{
