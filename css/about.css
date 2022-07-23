@@ -1,14 +1,6 @@
 @charset "UTF-8";
 
 /* 共通 */
-.profile-wrapper{
-    margin-bottom: 125px;
-}
-
-.profile-wrapper dl{
-    font-size: 1.44rem;
-}
-
 .profile-wrapper dt{
     font-weight: bold;
 }
@@ -20,7 +12,6 @@
 }
 
 h3{
-    font-size: 1.8rem;
     color: #24292E;
     font-weight: bold;
     letter-spacing: -0.08rem;
@@ -36,7 +27,7 @@ h4{
 @media screen and (max-width: 750px){
     .profile-wrapper{
         margin-top: 23px;
-        margin-bottom: 216px;
+        margin-bottom: 60px;
     }
     h3{
         margin-bottom: 30px;
@@ -48,10 +39,6 @@ h4{
 .profile-text{
     text-align: center;
     line-height: calc(17 / 10);
-}
-
-.profile-text p{
-    font-size: 1.44rem;
 }
 /* profile-text */
 
@@ -135,5 +122,15 @@ h4{
 
 .skill-1 dd:first-of-type{
     margin-bottom: 15px;
+}
+
+@media screen and (max-width: 750px){
+    .profile-skill .flex-wrapper{
+        display: block;
+    }
+
+    .skill-1{
+        margin-bottom: 15px;
+    }
 }
 /* profile-skill */
